@@ -1,0 +1,17 @@
+code	fr
+tp.In	En
+tp.initiative	l'initiative
+tp.mandatoryReferendum	le référendum obligatoire
+tp.faculativeReferendum	le référendum facultatif
+tp.yield	a récolté
+tp.ofyes	de oui
+title.initiative	Initiatives populaires
+title.mandatoryReferendum	Référendums obligatoires
+title.facultativeReferendum	Référendums facultatifs
+descr1.initiative	INTERACTIF: Explorer toutes les initiatives populaires soumises au vote national en Suisse de 
+descr2.initiative	. Le % de oui pour chaque initiative populaire est coloré en rouge (moins de 50%) ou vert (plus de 50% de oui). Sélectionner une région du graphique ou pincer pour zoomer. Déplacer votre curseur ou toucher un carré pour en lire plus.
+descr1.mandatoryReferendum	INTERACTIF: Explorer toutes les référendums obligatoires soumises au vote national en Suisse de 
+descr2.mandatoryReferendum	. Le % de oui pour chaque référendum obligatoire est coloré en rouge (moins de 50%) ou vert (plus de 50% de oui). Sélectionner une région du graphique ou pincer pour zoomer. Déplacer votre curseur ou toucher un carré pour en lire plus.
+descr1.facultativeReferendum	INTERACTIF: Explorer toutes les référendums obligatoires soumises au vote national en Suisse de 
+descr2.facultativeReferendum	. Le % de oui pour chaque référendum obligatoire est coloré en rouge (moins de 50%) ou vert (plus de 50% de oui). Sélectionner une région du graphique ou pincer pour zoomer. Déplacer votre curseur ou toucher un carré pour en lire plus.
+source	source: C2D.ch

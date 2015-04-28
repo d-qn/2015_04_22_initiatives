@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<title>swissinfo.ch</title>
+
+<style type="text/css">
+
+/*  #######   rcharts styling ########*/
+svg text {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ensure data labels are not visible over the tooltip: 
+http://stackoverflow.com/questions/15130311/highcharts-labels-visible-over-tooltip */
+
+.label { 
+  z-index: 1 !important;
+}
+
+.highcharts-tooltip span {
+  background-color:white;
+  opacity:1;
+  z-index:9999 !important;
+  border-radius: 3px;
+}
+
+.tooltip {
+  padding:5px;
+}
+
+    
+/*  #######   header and footer styling   ########*/  
+
+body, h1, h2, h3, h4, h5, h6, td {
+   font-family: 'Open Sans', sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 2px;
+}
+
+#cite {
+    font-size: 0.5em; color: #B8B8B8; text-align: right; margin-top:1px; margin-right:3px; padding-bottom: 5px;
+}
+#cite a { text-decoration: none; color: #821122; }
+    
+.descr {
+ font-size: 0.8em; margin-left:1px; color: #707070;
+}
+    
+    
+h1 {
+   font-size:2em;
+}
+
+h2 {
+   font-size:1.5em;
+   font-weight: lighter;
+   line-height: 115%;
+}
+
+h3 {
+   font-size:1.2em
+}
+
+h4 {
+   font-size:1.1em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+    
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/highcharts-more.js"></script>
+<script src="js/exporting.js"></script>
+<script src="js/heatmap.js"></script>
+
+<h2> asfsadf </h2>
+<div class="descr"> sadfsadfdsaf </div>
+    <div id = 'chart16cb0453539a0' class = 'rChart highcharts'></div>         <script type='text/javascript'>     (function($){         $(function () {             var chart = new Highcharts.Chart({  "dom": "chart16cb0453539a0", "width":            800, "height":            400, "credits": {  "href": null, "text": null  }, "exporting": {  "enabled": false  }, "title": {  "text": "Sales per employee per weekday"  }, "yAxis": [  {  "categories": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ], "title": {  "text": ""  }  }  ], "chart": {  "zoomType": "x", "type": "heatmap", "renderTo": "chart16cb0453539a0"  }, "series": [  {  "name": "Sales per employee", "data": [  {  "x":              0, "y":              0, "value":             10  }, {  "x":              0, "y":              1, "value":             19  }, {  "x":              0, "y":              2, "value":              8  }, {  "x":              0, "y":              3, "value":             24  }, {  "x":              0, "y":              4, "value":             67  }, {  "x":              1, "y":              0, "value":             92  }, {  "x":              1, "y":              1, "value":             58  }, {  "x":              1, "y":              2, "value":             78  }, {  "x":              1, "y":              3, "value":            117  }, {  "x":              1, "y":              4, "value":             48  }, {  "x":              2, "y":              0, "value":             35  }, {  "x":              2, "y":              1, "value":             15  }, {  "x":              2, "y":              2, "value":            123  }, {  "x":              2, "y":              3, "value":             64  }, {  "x":              2, "y":              4, "value":             52  }, {  "x":              3, "y":              0, "value":             72  }, {  "x":              3, "y":              1, "value":            132  }, {  "x":              3, "y":              2, "value":            114  }, {  "x":              3, "y":              3, "value":             19  }, {  "x":              3, "y":              4, "value":             16  }, {  "x":              4, "y":              0, "value":             38  }, {  "x":              4, "y":              1, "value":              5  }, {  "x":              4, "y":              2, "value":              8  }, {  "x":              4, "y":              3, "value":            117  }, {  "x":              4, "y":              4, "value":            115  }, {  "x":              5, "y":              0, "value":             88  }, {  "x":              5, "y":              1, "value":             32  }, {  "x":              5, "y":              2, "value":             12  }, {  "x":              5, "y":              3, "value":              6  }, {  "x":              5, "y":              4, "value":            120  }, {  "x":              6, "y":              0, "value":             13  }, {  "x":              6, "y":              1, "value":             44  }, {  "x":              6, "y":              2, "value":             88  }, {  "x":              6, "y":              3, "value":             98  }, {  "x":              6, "y":              4, "value":             96  }, {  "x":              7, "y":              0, "value":             31  }, {  "x":              7, "y":              1, "value":              1  }, {  "x":              7, "y":              2, "value":             82  }, {  "x":              7, "y":              3, "value":             32  }, {  "x":              7, "y":              4, "value":             30  }, {  "x":              8, "y":              0, "value":             85  }, {  "x":              8, "y":              1, "value":             97  }, {  "x":              8, "y":              2, "value":            123  }, {  "x":              8, "y":              3, "value":             64  }, {  "x":              8, "y":              4, "value":             84  }, {  "x":              9, "y":              0, "value":             47  }, {  "x":              9, "y":              1, "value":            114  }, {  "x":              9, "y":              2, "value":             31  }, {  "x":              9, "y":              3, "value":             48  }, {  "x":              9, "y":              4, "value":             91  }  ], "color": "#cccccc", "dataLabels": {  "enabled": true, "color": "black", "style": {  "textShadow": "none", "HcTextStroke": null  }  }  }  ], "xAxis": [  {  "categories": [ "Alexander", "Marie", "Maximilian", "Sophia", "Lukas", "Maria", "Leon", "Anna", "Tim", "Laura" ]  }  ], "colorAxis": {  "min":              0, "minColor": "#FFFFFF", "maxColor": "#7cb5ec"  }, "legend": {  "align": "right", "layout": "vertical", "margin":              0, "verticalAlign": "top", "y":             25, "symbolHeight":            320  }, "tooltip": {  "formatter":  function() { return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> sold <br><b>' +                     this.point.value + '</b> items on <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>'; }   }, "id": "chart16cb0453539a0"  });         });     })(jQuery); </script>
+
+<!-- Source -->
+<div id="cite">  | Duc-Quang Nguyen | swissinfo.ch </div>
+
+
+</body>
+</html>
